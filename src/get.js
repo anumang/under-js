@@ -11,7 +11,7 @@ import isNil from './isNil';
  * @param {Object} target Target object
  * @param {Array|string} propertyPath Property path
  * @param {*} [defaultValue] Default
- * @returns {*} Path vartiable || default
+ * @returns {*} Path or default value
  * @example
  *
  * const object = { 'a': [{ 'b': { 'c': 3 } }] }

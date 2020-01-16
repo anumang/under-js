@@ -3,7 +3,7 @@ import 'core-js';
 import normalizePath from './common/normalizePath';
 
 /**
- * Resolve the value from given path string or array of properties
+ * Set the value from given path string or array of properties
  *
  * @since 0.1.0
  * @param {Object} target Target object

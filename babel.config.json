@@ -1,0 +1,16 @@
+{
+  "exclude": "src/__test__/**",
+  "presets": [
+    [
+      "@babel/env",
+      {
+        "targets": {
+          "ie": "11",
+          "firefox": "52",
+          "chrome": "63",
+          "safari": "10"
+        }
+      }
+    ]
+  ]
+}

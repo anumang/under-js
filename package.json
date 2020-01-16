@@ -1,0 +1,43 @@
+{
+  "name": "under-js",
+  "version": "0.1.0-beta",
+  "description": "Optimized highly common helper Javascript utilities over latest ECMAScript standards with core-js polyfill",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "mocha __test__/** --require @babel/register",
+    "dev": "babel index.js --watch --out-file dist/index.js",
+    "build": "babel src --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anumang/under-js.git"
+  },
+  "keywords": [
+    "javascript",
+    "es5",
+    "es6",
+    "es7",
+    "core-js",
+    "util",
+    "function"
+  ],
+  "author": "Alper Numan Genc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anumang/under-js/issues"
+  },
+  "homepage": "https://github.com/anumang/under-js#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.3",
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@babel/register": "^7.8.3",
+    "mocha": "^7.0.0"
+  },
+  "dependencies": {
+    "core-js": "^3.6.4"
+  },
+  "mocha": {
+    "recursive": true
+  }
+}

@@ -73,4 +73,12 @@ describe('get', function() {
     assert.equal(get({a: [2]},  ['a', '1'], 3), 3);
   });
 
+  it('should get false values ', function() {
+    assert.equal(get({a: false}, 'a'), false);
+
+    assert.equal(get({a: ''}, 'a'), '');
+
+    assert.equal(get({a: 0}, 'a'), 0);
+  });
+
 });

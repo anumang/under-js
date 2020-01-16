@@ -1,5 +1,7 @@
 import 'core-js';
 
+import normalizePath from './common/normalizePath';
+
 import isNil from './isNil';
 
 /**
@@ -25,10 +27,10 @@ import isNil from './isNil';
  *
  */
 const get = (target, propertyPath, defaultValue) => {
-  if (propertyPath && propertyPath.length && Object.keys(target || '').length) {
-    const normalizePath = Array.isArray(propertyPath) ? propertyPath : propertyPath.split(/[,\\[\].\/]/g).filter(Boolean);
+  let pathNormalized = normalizePath(propertyPath)
 
-    const result = normalizePath.reduce((arr, next) => (arr && arr[next]) || undefined , target);
+  if (pathNormalized) {
+    const result = pathNormalized.reduce((arr, next) => (arr && !isNil(arr[next]) ? arr[next] : undefined) , target);
 
     return isNil(result) ? defaultValue : result;
   }

@@ -1,6 +1,6 @@
 # UNDER-JS
 
-Experimenting light-weight alternative javascript util library using latest ECMAScript features with `core-js`.
+Experimenting light-weight alternative javascript util library using latest ECMAScript features with built-in polyfill `core-js`.
 
 ## Scope
 

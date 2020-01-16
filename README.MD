@@ -11,7 +11,7 @@ Small util functions makes easy and clean development. Utils are classified from
 
 Although theese libraries and many more makes really helpful outcomes to build a project, In latest versions, they are missing two important points which are resulted in conflictions causing udesired results.
 
-### ECMAScript Upgrades
+### ECMAScript Compability
 
 Most of the util libraries, Instead of aligning latest changes of javascript, still continue development by folowing legacy approaches.
 

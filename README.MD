@@ -4,12 +4,12 @@ Experimenting light-weight alternative javascript util library using latest ECMA
 
 ## Scope
 
-Small util functions makes easy & clean development. Utils are classified from highly common to highly specific functionalities. There are many helper libraries exist depending of needed functionality. Most common examples;
+Small util functions makes easy and clean development. Utils are classified from highly common to highly specific functionalities. There are many helper libraries exist depending of needed functionality. Most common examples;
 
 - [Lodash](http://keepachangelog.com/en/1.0.0/)
 - [Moment](http://keepachangelog.com/en/1.0.0/)
 
-Although theese libraries and many more makes really helpful outcomes to build a project, In latest versions, they are missing two important points are started to confliction which resulting undesired issues.
+Although theese libraries and many more makes really helpful outcomes to build a project, In latest versions, they are missing two important points which are resulted in conflictions causing udesired results.
 
 ### ECMAScript Upgrades
 
@@ -25,9 +25,9 @@ With `under-js`,
 
 Most of the utils libraryies, Instead of helping performance by reducing their dependendencies for the projects, they are continue to weightening by expanding their features which cause many unnecessary weights over projects.
 
-In todays world SEO started to focus on performance which became an important ranking factor and page quality parameter. Many websites trying to focus on optimizations by using latest solutions. Such as modern `html` rendering elements, `SSR` or `Static` rendering, `bundle` optimisations.
+In todays world SEO started to focus on performance which became an important ranking factor and page quality parameter. Many websites trying to focus on optimizations by using latest solutions. Such as modern `html` rendering elements, `SSR` or `Static` page rendering, budle `tree-shaking`, `split-chunks` performance optimisations.
 
 With `under-js`,
 
-- Target to reduce dependencies and over weights by focusing highly common utility supports
+- Target to reduce dependencies and over weights by focusing only highly common utility support.
 

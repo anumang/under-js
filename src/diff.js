@@ -24,6 +24,7 @@ import 'core-js';
  */
 const diff = (include, exclude, differBy) => {
   if(!Array.isArray(include)) return [];
+
   if(!Array.isArray(exclude)) return include;
 
   const differEval = differBy instanceof Function

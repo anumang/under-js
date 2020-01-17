@@ -1,6 +1,6 @@
 # UNDER-JS
 
-Experimenting light-weight alternative javascript util library using latest ECMAScript features with `core-js`.
+Experimenting light-weight alternative javascript util library using latest ECMAScript features with using built-in `core-js` polyfill .
 
 ## Scope
 
@@ -9,7 +9,7 @@ Small util functions makes easy and clean development. Utils are classified from
 - [Lodash](http://keepachangelog.com/en/1.0.0/)
 - [Moment](http://keepachangelog.com/en/1.0.0/)
 
-Although theese libraries and many more makes really helpful outcomes to build a project, In latest versions, they are missing two important points which are resulted in conflictions causing udesired results.
+Although theese libraries and many more makes really helpful outcomes to build a project, In latest versions, they are missing two important points which are resulted in conflictions which causes udesired results.
 
 ### ECMAScript Compability
 
